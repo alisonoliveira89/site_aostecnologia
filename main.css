@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Calistoga', cursive;
+}
+
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+body>header {
+    background-color: #000;
+    color: #fff;
+    font-size: 28px;
+    padding: 24px;
+}
+
+header h1,
+section h1,
+section h3 {
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+header .container {
+    display: flex;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+header li a:hover {
+    color: #c9c9c9;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-company {
+    width: 60%;
+}
+
+#about .container {
+    display: block;
+}
+
+#presentation {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#presentation h2,
+#about h2,
+#contact h2 {
+    font-size: 32px;
+}
+
+#presentation p {
+    margin-top: 16px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#presentation p,
+#about p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#presentation .container {
+    border-radius: 10px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+    padding: 24px
+}
+
+.about-method {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+    padding: 24px
+}
+
+.about-method h2,
+.about-method p {
+    margin-left: 12px;
+    margin-bottom: 16px;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 12px;
+    margin-top: 24px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+#contact .container {
+    border-radius: 10px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#contact .container h2 {
+    padding: 8px;
+}
+
+.contact-method {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px
+}
+
+.contact-method h3 {
+    margin: 8px auto 16px auto;
+}
+
+.contact-method p {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 420px;
+    margin-bottom: 8px;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+form textarea {
+    resize: none;
+    height: 240px;
+}
+
+.address-links img {
+    height: 30px;
+}
+
+.address-links li {
+    display: inline;
+    margin-right: 12px;
+    margin-top: 24px;
+}
+
+.address-links li a {
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+form button {
+    font-family: 'Calistoga', cursive;
+    font-size: 28px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #5e5e5e;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 8px;
+}
